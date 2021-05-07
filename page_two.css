@@ -1,0 +1,177 @@
+.a_door_lock_wrapper{
+    position: relative;
+    height: 350px;
+    width: 650px;
+}
+
+.a_door_rectangles{
+position: absolute;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+height: 5%;
+width: 5%;
+left: 20%;
+font-size: large;
+text-align: center;
+}
+
+#a_door_input1{
+top: 5%;
+}
+
+#a_door_input2{
+top: 10%;
+}
+
+#a_door_input3{
+top: 15%;
+}
+
+#a_door_input4{
+top: 25%;
+}
+
+#a_door_input5{
+top: 30%;
+}
+
+#a_door_input6{
+top: 35%;
+}
+
+#a_door_input7{
+top: 40%;
+}
+
+#a_door_button{
+    position: absolute;
+    top: 55%;
+    left: 45%;
+}
+.sins_text{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+.dialogue{
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+
+
+.b_door_lock_wrapper{
+    position: relative;
+    height: 350px;
+    width: 650px;
+}
+
+.b_door_rectangles{
+position: absolute;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+height: 5%;
+width: 5%;
+left: 20%;
+font-size: large;
+text-align: center;
+}
+
+#b_door_input1{
+top: 5%;
+}
+
+#b_door_input2{
+top: 10%;
+}
+
+#b_door_input3{
+top: 15%;
+}
+
+#b_door_input4{
+top: 25%;
+}
+
+#b_door_input5{
+top: 30%;
+}
+
+#b_door_input6{
+top: 35%;
+}
+
+#b_door_button{
+    position: absolute;
+    top: 55%;
+    left: 45%;
+}
+
+.quote_wrapper_a{
+    position: relative;
+    width: 800px;
+    height: 600px;
+  }
+  
+  .quotes_wrapper_text_a{
+    position:absolute;
+    width:600px;
+    height:800px;
+    top:15%;
+    left:13%
+  }
+  
+  .dialogueB{
+    font-family: Geneva, Verdana, sans-serif;
+    transform: rotate(-5deg);
+  }
+
+.record_wrapper{
+    position: relative;
+}
+
+.audio_file{
+    position: absolute;
+}
+
+
+.a_color_lock_wrapper{
+    position: relative;
+    height: 350px;
+    width: 650px;
+}
+
+.colored_button{
+    position: absolute;
+    top: 40%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+#a_c_button1{
+    left:10%;
+}
+
+#a_c_button2{
+    left:20%;
+}
+
+#a_c_button3{
+    left:30%;
+}
+
+#a_c_button4{
+    left:40%;
+}
+
+#a_c_button5{
+    left:50%;
+}
+
+#color_open_button{
+    left:60%;
+}
+

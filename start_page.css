@@ -1,0 +1,83 @@
+body {
+    /*background-color: rgb(155, 244, 195);*/
+    /*background-image: url("https://www.acotoronto.ca/tobuilt_bk/php/Buildingimages/StAnselm1.jpg");*/
+    background-image: url("https://i.pinimg.com/736x/10/1e/f6/101ef6a9e146b23de28fa2cd568ad17b.jpg");
+    
+    /* background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190625/ourmid/pngtree-simple-atmosphere-geometry-business-ppt-production-background-poster-image_259426.jpg");
+    */
+    /*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAO8mZJWywYOQTgj38tGkiOvkuTp8LCl8MuMmlsNnNBc9O3RscyW64gaqI56NPKOKharQ&usqp=CAU");
+    */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.box {
+  margin: auto;
+  position: relative;
+  width: 60%;
+  border: 3px solid #d8b646;
+  padding: 30px;
+  top: 30px;
+}
+
+h1 {
+  font-family: "Copperplate", "Brush Script MT", cursive;
+  font-size: 500%;
+  text-align: center;
+  
+}
+
+h2 {
+  font-family: "Copperplate", "Helvetica", sans-serif;
+  font-size: 350%;
+  text-align: center;
+}
+
+p {
+  font-family: "Verdana", "Arial", sans-serif;
+  font-size: 150%;
+  text-align: center;
+}
+
+ul {
+  font-family: "Verdana", "Arial", sans-serif;
+  font-size: 150%;
+}
+
+.button:hover {
+  background-color: #2386f0; 
+  border: none;
+  color: white;
+}
+
+.button {
+  transition-duration: 0.4s;
+
+  margin: auto;
+  position: relative;
+  left: 45%;
+
+  background-color: #fcfcfc;  
+  border: 2px solid #3a3535;
+  color: black;
+  padding: 20px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 32px;
+
+}
+/*
+.button{
+  margin:0 auto;
+  display:block;
+  position: absolute;
+  bottom: 1%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}*/
+
+/*
+  h1 {
+    background-color: green;
+  }*/

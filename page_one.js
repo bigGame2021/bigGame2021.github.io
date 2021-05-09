@@ -68,9 +68,9 @@ function b_cupboard_lock(){
         alert("Hmm... perhaps I should try a different answer?")
     }
 
-    if(answer1 === 7 && answer2 === 6 && answer3 === 4){
+    if(answer1 === 6 && answer2 === 7 && answer3 === 4){
         alert("The cupboard opened!");
-        window.location.href = "page_c.html";
+        window.location.href = "b_pg1_bible_quotes.html";
     }
     else{
         alert("Hmm... perhaps I should try a different answer?")

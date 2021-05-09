@@ -42,9 +42,9 @@ function a_door_lock(){
         alert("The door isn't budging... perhaps I should try a different answer?");
     }
 
-    if(answer1 === 5 && answer2 === 1 && answer3 === 3){
+    if(answer1 === 3 && answer2 === 1 && answer3 === 9){
         alert("The door opened!");
-        window.location.href = "page_c.html";
+        window.location.href = "dialogue2apoi.html";
     }
     else{
         alert("The door isn't budging... perhaps I should try a different answer?");
@@ -95,7 +95,7 @@ function b_door_lock(){
 
     if(answer1 === 5 && answer2 === 2 && answer3 === 9){
         alert("The door opened!");
-        window.location.href = "b_pg2.html";
+        window.location.href = "dialogue2bqwerty.html";
     }
     else{
         alert("The door isn't budging... perhaps I should try a different answer?");

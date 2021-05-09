@@ -95,7 +95,7 @@ function b_door_lock(){
 
     if(answer1 === 5 && answer2 === 2 && answer3 === 9){
         alert("The door opened!");
-        window.location.href = "page_c.html";
+        window.location.href = "b_pg2.html";
     }
     else{
         alert("The door isn't budging... perhaps I should try a different answer?");

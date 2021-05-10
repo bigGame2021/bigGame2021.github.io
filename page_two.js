@@ -37,31 +37,14 @@ function a_door_lock(){
 
 
 function b_door_lock(){
-    let input1 = document.getElementById("b_door_input1");
-    let input2 = document.getElementById("b_door_input2");
-    let input3 = document.getElementById("b_door_input3");
-    let input4 = document.getElementById("b_door_input4");
-    let input5 = document.getElementById("b_door_input5");
-    let input6 = document.getElementById("b_door_input6");
-    let answer1;
-    let answer2;
-    let answer3;
-    let answer4;
-    let answer5;
-    let answer6;
-    try {
-        answer1 = parseInt(input1.value);
-        answer2 = parseInt(input2.value);
-        answer3 = parseInt(input3.value);
-        answer4 = parseInt(input4.value);
-        answer5 = parseInt(input5.value);
-        answer6 = parseInt(input6.value);
-        
-    } catch (error) {
-        alert("The door isn't budging... perhaps I should try a different answer?");
-    }
+    let answer1 = document.getElementById("b_door_input1").value;
+    let answer2 = document.getElementById("b_door_input2").value;
+    let answer3 = document.getElementById("b_door_input3").value;
+    let answer4 = document.getElementById("b_door_input4").value;
+    let answer5 = document.getElementById("b_door_input5").value;
+    let answer6 = document.getElementById("b_door_input6").value;
 
-    if(answer1 === 1 && answer2 === 1 && answer3 === 1 && answer4 === 1 && answer5 === 1 && answer6 === 1){
+    if(answer1 === "t" && answer2 === "h" && answer3 === "b" && answer4 === "m" && answer5 === "j" && answer6 === "f"){
         alert("The door opened!");
         window.location.href = "page_c.html";
     }

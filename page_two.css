@@ -77,41 +77,52 @@ top: 94%;
 position: absolute;
 background-color: rgb(255, 255, 255);
 color: rgb(0, 0, 0);
-height: 5%;
-width: 5%;
+height: 8%;
+width: 3%;
 left: 20%;
 font-size: large;
 text-align: center;
 }
 
 #b_door_input1{
-top: 5%;
+top: 45%;
+left: 48%;
 }
 
 #b_door_input2{
-top: 10%;
+    top: 45%;
+    left: 53%;
 }
 
 #b_door_input3{
-top: 15%;
+    top: 45%;
+    left: 58%;
 }
 
 #b_door_input4{
-top: 25%;
+    top: 45%;
+    left: 63%;
 }
 
 #b_door_input5{
-top: 30%;
+    top: 45%;
+    left: 68%;
 }
 
 #b_door_input6{
-top: 35%;
+    top: 45%;
+    left: 73%;
 }
 
 #b_door_button{
     position: absolute;
-    top: 55%;
-    left: 45%;
+    top: 59%;
+    left: 57%;
+    font-family: Geneva, Verdana, sans-serif;
+    font-size: medium;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 .quote_wrapper_a{

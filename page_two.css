@@ -10,49 +10,55 @@ background-color: rgb(255, 255, 255);
 color: rgb(0, 0, 0);
 height: 5%;
 width: 5%;
-left: 20%;
+left: 66%;
 font-size: large;
 text-align: center;
 }
 
 #a_door_input1{
-top: 5%;
+top: 40%;
 }
 
 #a_door_input2{
-top: 10%;
+top: 49%;
 }
 
 #a_door_input3{
-top: 15%;
+top: 58%;
 }
 
 #a_door_input4{
-top: 25%;
+top: 67%;
 }
 
 #a_door_input5{
-top: 30%;
+top: 76%;
 }
 
 #a_door_input6{
-top: 35%;
+top: 85%;
 }
 
 #a_door_input7{
-top: 40%;
+top: 94%;
 }
 
 #a_door_button{
     position: absolute;
-    top: 55%;
-    left: 45%;
+    top: 29%;
+    left: 66%;
+    text-align: center;
+    border: none;
+    cursor:pointer;
+    background-color: transparent;
+    width:10%;
 }
 .sins_text{
     position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 39%;
+    left: 57%;
     font-family: Geneva, Verdana, sans-serif;
+    font-size: small;
 }
 
 .dialogue{

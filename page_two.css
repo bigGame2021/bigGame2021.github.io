@@ -129,49 +129,60 @@ top: 35%;
 
 .record_wrapper{
     position: relative;
+    height: 380px;
+    width: 460px;
 }
 
 .audio_file{
     position: absolute;
+    left: 20%;
+    top: 23%;
+    height: 7%;
+    width:61%;
 }
 
 
 .a_color_lock_wrapper{
     position: relative;
     height: 350px;
-    width: 650px;
+    width: 680px;
 }
 
 .colored_button{
     position: absolute;
-    top: 40%;
-    height: 50px;
-    width: 50px;
+    top: 53%;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     background-color: #ffffff;
 }
 
 #a_c_button1{
-    left:10%;
+    left:29%;
 }
 
 #a_c_button2{
-    left:20%;
+    left:37%;
 }
 
 #a_c_button3{
-    left:30%;
+    left:45%;
 }
 
 #a_c_button4{
-    left:40%;
+    left:53%;
 }
 
 #a_c_button5{
-    left:50%;
+    left:61%;
 }
 
 #color_open_button{
-    left:60%;
+    left:72%;
+}
+
+.dialogueBible{
+    font-family: Geneva, Verdana, sans-serif;
+    transform: rotate(-3deg);
 }
 

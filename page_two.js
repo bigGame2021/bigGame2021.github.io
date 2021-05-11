@@ -28,7 +28,7 @@ function a_door_lock(){
 
     if(answer1 === 7 && answer2 === 2 && answer3 === 1 && answer4 === 9 && answer5 === 6 && answer6 === 8 && answer7 === 3){
         alert("The door opened!");
-        window.location.href = "page_c.html";
+        window.open("a_pg3_im_so_tired_of_coding_css_pls_send_help.html");
     }
     else{
         alert("The door isn't budging... perhaps I should try a different answer?");
@@ -46,7 +46,7 @@ function b_door_lock(){
 
     if(answer1 === "t" && answer2 === "h" && answer3 === "b" && answer4 === "m" && answer5 === "j" && answer6 === "f"){
         alert("The door opened!");
-        window.location.href = "page_c.html";
+        window.open("b_pg2_why_did_i_think_one_man_coding_this_in_a_few_days_was_a_good_idea.html");
     }
     else{
         alert("The door isn't budging... perhaps I should try a different answer?");

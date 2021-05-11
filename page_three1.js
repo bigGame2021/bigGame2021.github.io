@@ -31,8 +31,10 @@ function a_door_lock(){
     let input2 = document.getElementById("a_door_input2").value;
     let input3 = document.getElementById("a_door_input3").value;
     let input4 = document.getElementById("a_door_input4").value;
+    let input5 = document.getElementById("a_door_input3").value;
+    let input6 = document.getElementById("a_door_input4").value;
 
-    if(input1.toLowerCase() === "q" && input2.toLowerCase() === "q" && input3.toLowerCase() === "q" && input4.toLowerCase() === "q"){
+    if(input1.toLowerCase() === "q" && input2.toLowerCase() === "q" && input3.toLowerCase() === "q" && input4.toLowerCase() === "q" && input5.toLowerCase() === "q" && input6.toLowerCase() === "q"){
         alert("The door opened!");
         window.open("dialogue4four.html");
     }

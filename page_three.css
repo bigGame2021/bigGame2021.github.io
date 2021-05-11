@@ -9,26 +9,34 @@ position: absolute;
 background-color: rgb(255, 255, 255);
 color: rgb(0, 0, 0);
 height: 9%;
-width: 4%;
+width: 3%;
 top: 45%;
 font-size: large;
 text-align: center;
 }
 
 #a_door_input1{
-left: 50%;
+left: 48%;
 }
 
 #a_door_input2{
-    left: 57%;
+    left: 53%;
 }
 
 #a_door_input3{
-    left: 64%;
+    left: 58%;
 }
 
 #a_door_input4{
-    left: 71%;
+    left: 63%;
+}
+
+#a_door_input5{
+    left: 68%;
+}
+
+#a_door_input6{
+    left: 73%;
 }
 
 

@@ -1,0 +1,194 @@
+.a_door_lock_wrapper{
+    position: relative;
+    height: 350px;
+    width: 650px;
+}
+
+.a_door_rectangles{
+position: absolute;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+height: 5%;
+width: 5%;
+left: 20%;
+font-size: large;
+text-align: center;
+}
+
+#a_door_input1{
+top: 5%;
+}
+
+#a_door_input2{
+top: 10%;
+}
+
+#a_door_input3{
+top: 15%;
+}
+
+#a_door_input4{
+top: 25%;
+}
+
+#a_door_input5{
+top: 30%;
+}
+
+#a_door_input6{
+top: 35%;
+}
+
+#a_door_input7{
+top: 40%;
+}
+
+#a_door_button{
+    position: absolute;
+    top: 55%;
+    left: 45%;
+}
+.sins_text{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+.dialogue{
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+
+
+.b_door_lock_wrapper{
+    position: relative;
+    height: 350px;
+    width: 650px;
+}
+
+.b_door_rectangles{
+position: absolute;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+height: 5%;
+width: 5%;
+left: 20%;
+font-size: large;
+text-align: center;
+}
+
+#b_door_input1{
+top: 5%;
+}
+
+#b_door_input2{
+top: 10%;
+}
+
+#b_door_input3{
+top: 15%;
+}
+
+#b_door_input4{
+top: 25%;
+}
+
+#b_door_input5{
+top: 30%;
+}
+
+#b_door_input6{
+top: 35%;
+}
+
+#b_door_button{
+    position: absolute;
+    top: 55%;
+    left: 45%;
+}
+
+.quote_wrapper_a{
+    position: relative;
+    width: 800px;
+    height: 600px;
+  }
+  
+  .quotes_wrapper_text_a{
+    position:absolute;
+    width:600px;
+    height:800px;
+    top:15%;
+    left:13%
+  }
+  
+  .dialogueB{
+    font-family: Geneva, Verdana, sans-serif;
+    transform: rotate(-5deg);
+  }
+
+
+
+.drawer_lock_wrapper{
+    position: relative;
+    height: 350px;
+    width: 656px;
+}
+
+.drawer_rectangles{
+position: absolute;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+height: 7%;
+width: 4%;
+top: 39%;
+font-size: large;
+text-align: center;
+}
+
+#drawer_input1{
+left:12%;
+}
+
+#drawer_input2{
+left:19%;
+}
+
+#drawer_input3{
+left:26%;
+}
+
+
+#drawer_input4{
+    left:33%;
+}
+
+#drawer_input5{
+left:40%;
+}
+
+#drawer_input6{
+left:47%;
+}
+
+#drawer_input7{
+left:54%;
+}
+
+#drawer_input8{
+left:61%;
+}
+   
+#drawer_input9{
+    left:68%;
+} 
+
+
+#drawer_button{
+    position: absolute;
+    top: 40%;
+    left: 76%;
+    text-align: center;
+    border: none;
+    cursor:pointer;
+}

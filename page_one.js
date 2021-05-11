@@ -19,7 +19,7 @@ function a_chest_lock(){
 
     if(answer1 === 5 && answer2 === 4 && answer3 === 6 && answer4 === 3){
         alert("The chest opened!");
-        window.location.href = "a_pg1_bible_quotes.html";
+        window.open("a_pg1_bible_quotes.html");
     }
     else{
         alert("Hmm... that doesn't seem to be the right answer.");
@@ -44,7 +44,7 @@ function a_door_lock(){
 
     if(answer1 === 3 && answer2 === 1 && answer3 === 9){
         alert("The door opened!");
-        window.location.href = "dialogue2apoi.html";
+        window.open("dialogue2apoi.html");
     }
     else{
         alert("The door isn't budging... perhaps I should try a different answer?");

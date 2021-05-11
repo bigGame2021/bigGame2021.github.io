@@ -2,8 +2,22 @@
 <html>
     <header>
         <title>Mudika Big Game!</title>
+        <script src="page_three1.js"></script>
         <link rel="stylesheet" href="page_three.css">
     </header>
-    <p class="dialogue">A shady tradesman. He seems hungry... shall we cook for him?</p>
+    <div class="shady_wrapper">
+        <p class="dialogue">A shady tradesman... He seems hungry.</p>
         <img src="shady.png" height = "320" width = "500">
+        <p class="dialogue">Perhaps if we cook him food he will trade us something.</p>
+        <p class="dialogue">What should we cook him?</p>
+        <input type="text" maxlength="15" id = "shady_inputFood"> 
+        <p class="dialogue">How many cloves of garlic should we use?.</p>
+        <input type="text" maxlength="1" id = "shady_inputGarlic"> 
+        <p class="dialogue">How many cups of coconut milk should we add?</p>
+        <input type="text" maxlength="1" id = "shady_inputMilk"> 
+        <p class="dialogue">How many tsp of salt should we add?</p>
+        <input type="text" maxlength="1" id = "shady_inputSalt"> <br>
+        <button onclick = "shady_lock()" id="shady_button">Cook!</button>
+    </div>
+    
 </html>

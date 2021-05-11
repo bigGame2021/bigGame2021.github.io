@@ -1,3 +1,9 @@
+
+document.addEventListener('DOMContentLoaded',()=>{
+    alert('DOM ready!');
+    //console.log("here");
+});
+
 function a_chest_lock(){
     let input1 = document.getElementById("a_chest_input1");
     let input2 = document.getElementById("a_chest_input2");
@@ -111,5 +117,33 @@ function drawer_lock(){
     }
     else{
         alert("The drawer isn't opening.");
+    }
+}
+
+
+
+function shady_lock(){
+    let food = document.getElementById("shady_inputFood").value;
+    let garlic1 = document.getElementById("shady_inputGarlic").value;
+    let milk1 = document.getElementById("shady_inputMilk").value;
+    let salt1 = document.getElementById("shady_inputSalt").value;
+    let garlic;
+    let milk;
+    let salt;
+    try {
+        garlic = parseInt(garlic1);
+        milk = parseInt(milk1);
+        salt = parseInt(salt1);
+        
+    } catch (error) {
+        alert("He looks at the food uninterested.");
+    }
+
+    if(food.toLowerCase()==="rendang" && garlic === 3 && milk === 2 && salt === 1){
+         alert("Shady tradesman happily takes the food! He hands you a piece of paper and starts eating.");
+         window.location.href = "email1wooooooo.html";
+    }
+    else{
+        alert("He looks at the food uninterested.");
     }
 }

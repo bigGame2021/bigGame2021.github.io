@@ -194,3 +194,17 @@ left:61%;
     border: none;
     cursor:pointer;
 }
+
+.shady_wrapper{
+    position: relative;
+    height: 800px;
+    width: 650px;
+}
+#shady_button{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    text-align: center;
+    border: none;
+    cursor:pointer;
+}

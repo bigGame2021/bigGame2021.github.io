@@ -1,9 +1,3 @@
-
-document.addEventListener('DOMContentLoaded',()=>{
-    alert('DOM ready!');
-    //console.log("here");
-});
-
 function a_chest_lock(){
     let input1 = document.getElementById("a_chest_input1");
     let input2 = document.getElementById("a_chest_input2");
@@ -141,7 +135,7 @@ function shady_lock(){
 
     if(food.toLowerCase()==="rendang" && garlic === 3 && milk === 2 && salt === 1){
          alert("Shady tradesman happily takes the food! He hands you a piece of paper and starts eating.");
-         window.location.href = "email1wooooooo.html";
+         window.location.href = "map.html";
     }
     else{
         alert("He looks at the food uninterested.");

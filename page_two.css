@@ -171,8 +171,10 @@ left: 48%;
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    background-color: #ffffff;
+    background-color: #ce6ed7;
 }
+
+
 
 #a_c_button1{
     left:29%;
@@ -196,6 +198,7 @@ left: 48%;
 
 #color_open_button{
     left:72%;
+    background-color: #bfb43a;
 }
 
 .dialogueBible{

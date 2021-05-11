@@ -58,162 +58,178 @@ let b2 = 1;
 let b3 = 1;
 let b4 = 1;
 let b5 = 1;
+c1 = "#ce6ed7";
+c2 = "#d8d06f";
+c3 = "#a66fd8";
+c4 = "#d9876d";
+c5 = "#6fced9";
+c6 = "#6ed86f";
+c7 = "#6f82d8";
+c8 = "#d96d94";
 
-function new_color(buttonNum, button){
-    buttonNum = buttonNum + 1;
-    if(buttonNum === 5){
-        buttonNum = 1;
-    }
-
-    if(buttonNum === 1){
-        button.style.background='#000000';
-    }
-    else if(buttonNum === 2){
-        button.style.background='#00ff00';
-    }
-    else if(buttonNum === 3){
-        button.style.background='#0000ff';
-    }
-    else if(buttonNum === 4){
-        button.style.background='#ff0000';
-    }
-    else if(buttonNum === 5){
-        button.style.background='#ffffff';
-    }
-}
 
 function change_button_1(){
     let button = document.getElementById("a_c_button1");
     b1 = b1 + 1;
-    if(b1 === 7){
+    if(b1 === 9){
         b1 = 1;
     }
     if(b1 === 1){
-        button.style.background='#ffffff';
+        button.style.background=c1;
     }
     else if(b1 === 2){
-        button.style.background='#ff0000';
+        button.style.background=c2;
     }
     else if(b1 === 3){
-        button.style.background='#00ff00';
+        button.style.background=c3;
     }
     else if(b1 === 4){
-        button.style.background='#0000ff';
+        button.style.background=c4;
     }
     else if(b1 === 5){
-        button.style.background='#000000';
+        button.style.background=c5;
     }
     else if(b1 === 6){
-        button.style.background='#gf0000';
+        button.style.background=c6;
+    }
+    else if(b1 === 7){
+        button.style.background=c7;
+    }
+    else if(b1 === 8){
+        button.style.background=c8;
     }
 }
 
 function change_button_2(){
     let button = document.getElementById("a_c_button2");
     b2 = b2 + 1;
-    if(b2 === 7){
+    if(b2 === 9){
         b2 = 1;
     }
     if(b2 === 1){
-        button.style.background='#ffffff';
+        button.style.background=c1;
     }
     else if(b2 === 2){
-        button.style.background='#ff0000';
+        button.style.background=c2;
     }
     else if(b2 === 3){
-        button.style.background='#00ff00';
+        button.style.background=c3;
     }
     else if(b2 === 4){
-        button.style.background='#0000ff';
+        button.style.background=c4;
     }
     else if(b2 === 5){
-        button.style.background='#000000';
+        button.style.background=c5;
     }
     else if(b2 === 6){
-        button.style.background='#gf0000';
+        button.style.background=c6;
+    }
+    else if(b2 === 7){
+        button.style.background=c7;
+    }
+    else if(b2 === 8){
+        button.style.background=c8;
     }
 }
 
 function change_button_3(){
     let button = document.getElementById("a_c_button3");
     b3 = b3 + 1;
-    if(b3 === 7){
+    if(b3 === 9){
         b3 = 1;
     }
     if(b3 === 1){
-        button.style.background='#ffffff';
+        button.style.background=c1;
     }
     else if(b3 === 2){
-        button.style.background='#ff0000';
+        button.style.background=c2;
     }
     else if(b3 === 3){
-        button.style.background='#00ff00';
+        button.style.background=c3;
     }
     else if(b3 === 4){
-        button.style.background='#0000ff';
+        button.style.background=c4;
     }
     else if(b3 === 5){
-        button.style.background='#000000';
+        button.style.background=c5;
     }
     else if(b3 === 6){
-        button.style.background='#gf0000';
+        button.style.background=c6;
+    }
+    else if(b3 === 7){
+        button.style.background=c7;
+    }
+    else if(b3 === 8){
+        button.style.background=c8;
     }
 }
 
 function change_button_4(){
     let button = document.getElementById("a_c_button4");
     b4 = b4 + 1;
-    if(b4 === 7){
+    if(b4 === 9){
         b4 = 1;
     }
     if(b4 === 1){
-        button.style.background='#ffffff';
+        button.style.background=c1;
     }
     else if(b4 === 2){
-        button.style.background='#ff0000';
+        button.style.background=c2;
     }
     else if(b4 === 3){
-        button.style.background='#00ff00';
+        button.style.background=c3;
     }
     else if(b4 === 4){
-        button.style.background='#0000ff';
+        button.style.background=c4;
     }
     else if(b4 === 5){
-        button.style.background='#000000';
+        button.style.background=c5;
     }
     else if(b4 === 6){
-        button.style.background='#gf0000';
+        button.style.background=c6;
+    }
+    else if(b4 === 7){
+        button.style.background=c7;
+    }
+    else if(b4 === 8){
+        button.style.background=c8;
     }
 }
 
 function change_button_5(){
     let button = document.getElementById("a_c_button5");
     b5 = b5 + 1;
-    if(b5 === 7){
+    if(b5 === 9){
         b5 = 1;
     }
     if(b5 === 1){
-        button.style.background='#ffffff';
+        button.style.background=c1;
     }
     else if(b5 === 2){
-        button.style.background='#ff0000';
+        button.style.background=c2;
     }
     else if(b5 === 3){
-        button.style.background='#00ff00';
+        button.style.background=c3;
     }
     else if(b5 === 4){
-        button.style.background='#0000ff';
+        button.style.background=c4;
     }
     else if(b5 === 5){
-        button.style.background='#000000';
+        button.style.background=c5;
     }
     else if(b5 === 6){
-        button.style.background='#gf0000';
+        button.style.background=c6;
+    }
+    else if(b5 === 7){
+        button.style.background=c7;
+    }
+    else if(b5 === 8){
+        button.style.background=c8;
     }
 }
 
 function check_colors(){
-    if(b1 === 5 && b2 === 5 && b3 === 5 && b4 === 5 && b5 === 5){
+    if(b1 === 8 && b2 === 4 && b3 === 6 && b4 === 5 && b5 === 3){
         alert("It opened!");
         window.location.href = "email1wooooooo.html";
     }

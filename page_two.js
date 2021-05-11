@@ -26,7 +26,7 @@ function a_door_lock(){
         alert("The door isn't budging... perhaps I should try a different answer?");
     }
 
-    if(answer1 === 1 && answer2 === 1 && answer3 === 1 && answer4 === 1 && answer5 === 1 && answer6 === 1 && answer7 === 1){
+    if(answer1 === 7 && answer2 === 2 && answer3 === 1 && answer4 === 9 && answer5 === 6 && answer6 === 8 && answer7 === 3){
         alert("The door opened!");
         window.location.href = "page_c.html";
     }

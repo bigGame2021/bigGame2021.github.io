@@ -8,45 +8,39 @@
 position: absolute;
 background-color: rgb(255, 255, 255);
 color: rgb(0, 0, 0);
-height: 5%;
-width: 5%;
-left: 20%;
+height: 9%;
+width: 4%;
+top: 45%;
 font-size: large;
 text-align: center;
 }
 
 #a_door_input1{
-top: 5%;
+left: 50%;
 }
 
 #a_door_input2{
-top: 10%;
+    left: 57%;
 }
 
 #a_door_input3{
-top: 15%;
+    left: 64%;
 }
 
 #a_door_input4{
-top: 25%;
+    left: 71%;
 }
 
-#a_door_input5{
-top: 30%;
-}
-
-#a_door_input6{
-top: 35%;
-}
-
-#a_door_input7{
-top: 40%;
-}
 
 #a_door_button{
     position: absolute;
-    top: 55%;
-    left: 45%;
+    top: 59%;
+    left: 57%;
+    text-align: center;
+    border: none;
+    cursor:pointer;
+    background-color: transparent;
+    font-size: medium;
 }
 .sins_text{
     position: absolute;

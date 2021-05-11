@@ -27,27 +27,17 @@ function a_chest_lock(){
 }
 
 function a_door_lock(){
-    let input1 = document.getElementById("a_door_input1");
-    let input2 = document.getElementById("a_door_input2");
-    let input3 = document.getElementById("a_door_input3");
-    let answer1;
-    let answer2;
-    let answer3;
-    try {
-        answer1 = parseInt(input1.value);
-        answer2 = parseInt(input2.value);
-        answer3 = parseInt(input3.value);
-        
-    } catch (error) {
-        alert("The door isn't budging... perhaps I should try a different answer?");
-    }
+    let input1 = document.getElementById("a_door_input1").value;
+    let input2 = document.getElementById("a_door_input2").value;
+    let input3 = document.getElementById("a_door_input3").value;
+    let input4 = document.getElementById("a_door_input4").value;
 
-    if(answer1 === 3 && answer2 === 1 && answer3 === 9){
+    if(input1.toLowerCase() === "q" && input2.toLowerCase() === "q" && input3.toLowerCase() === "q" && input4.toLowerCase() === "q"){
         alert("The door opened!");
-        window.open("dialogue2apoi.html");
+        window.open("dialogue4four.html");
     }
     else{
-        alert("The door isn't budging... perhaps I should try a different answer?");
+        alert("The door isn't opening.. perhaps I should try a different answer?");
     }
 }
 

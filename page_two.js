@@ -1,3 +1,4 @@
+
 function a_door_lock(){
     let input1 = document.getElementById("a_door_input1");
     let input2 = document.getElementById("a_door_input2");
@@ -44,7 +45,7 @@ function b_door_lock(){
     let answer5 = document.getElementById("b_door_input5").value;
     let answer6 = document.getElementById("b_door_input6").value;
 
-    if(answer1 === "t" && answer2 === "h" && answer3 === "b" && answer4 === "m" && answer5 === "j" && answer6 === "f"){
+    if(answer1.toLowerCase() === "t" && answer2.toLowerCase() === "h" && answer3.toLowerCase() === "b" && answer4.toLowerCase() === "m" && answer5.toLowerCase() === "j" && answer6.toLowerCase() === "f"){
         alert("The door opened!");
         window.open("b_pg2_why_did_i_think_one_man_coding_this_in_a_few_days_was_a_good_idea.html");
     }

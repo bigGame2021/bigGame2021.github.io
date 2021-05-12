@@ -29,7 +29,7 @@ function a_door_lock(){
 
     if(answer1 === 7 && answer2 === 2 && answer3 === 1 && answer4 === 9 && answer5 === 6 && answer6 === 8 && answer7 === 3){
         alert("The door opened!");
-        window.open("a_pg3_im_so_tired_of_coding_css_pls_send_help.html");
+        window.open("dialogue3ahaha_im_so_tired_its_2AM.html");
     }
     else{
         alert("The door isn't budging... perhaps I should try a different answer?");
@@ -47,7 +47,7 @@ function b_door_lock(){
 
     if(answer1.toLowerCase() === "t" && answer2.toLowerCase() === "h" && answer3.toLowerCase() === "b" && answer4.toLowerCase() === "m" && answer5.toLowerCase() === "j" && answer6.toLowerCase() === "f"){
         alert("The door opened!");
-        window.open("b_pg2_why_did_i_think_one_man_coding_this_in_a_few_days_was_a_good_idea.html");
+        window.open("dialogue3b_ah_yes_more_dialogue.html");
     }
     else{
         alert("The door isn't budging... perhaps I should try a different answer?");

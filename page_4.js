@@ -1,7 +1,3 @@
-document.addEventListener('DOMContentLoaded',()=>{
-    alert('DOM ready!');
-    //console.log("here");
-});
 
 function door_lock(){
     let input = document.getElementById("b_door_input1").value;

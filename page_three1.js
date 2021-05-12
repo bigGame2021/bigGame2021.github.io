@@ -1,8 +1,4 @@
 
-document.addEventListener('DOMContentLoaded',()=>{
-        alert('DOM ready!');
-        //console.log("here");
-    });
 
 function a_chest_lock(){
     let input1 = document.getElementById("a_chest_input1");
@@ -42,7 +38,7 @@ function a_door_lock(){
 
     if(input1.toLowerCase() === "c" && input2.toLowerCase() === "s" && input3.toLowerCase() === "v" && input4.toLowerCase() === "w" && input5.toLowerCase() === "v" && input6.toLowerCase() === "h"){
         alert("The door opened!");
-        window.open("dialogue4four.html");
+        window.open("dialoguea4four.html");
     }
     else{
         alert("The door isn't opening.. perhaps I should try a different answer?");
@@ -94,9 +90,9 @@ function b_door_lock(){
         alert("The door isn't budging... perhaps I should try a different answer?");
     }
 
-    if(answer1 === 1 && answer2 === 1 && answer3 === 1 && answer4 === 1){
+    if(answer1 === 7 && answer2 === 9 && answer3 === 4 && answer4 === 6){
         alert("The door opened!");
-        window.open("dialogue2bqwerty.html");
+        window.open("dialogue4yayaya.html");
     }
     else{
         alert("The door isn't budging... perhaps I should try a different answer?");

@@ -1,12 +1,5 @@
 body {
-    /*background-color: rgb(155, 244, 195);*/
-    /*background-image: url("https://www.acotoronto.ca/tobuilt_bk/php/Buildingimages/StAnselm1.jpg");*/
     background-image: url("https://i.pinimg.com/736x/10/1e/f6/101ef6a9e146b23de28fa2cd568ad17b.jpg");
-    
-    /* background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190625/ourmid/pngtree-simple-atmosphere-geometry-business-ppt-production-background-poster-image_259426.jpg");
-    */
-    /*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAO8mZJWywYOQTgj38tGkiOvkuTp8LCl8MuMmlsNnNBc9O3RscyW64gaqI56NPKOKharQ&usqp=CAU");
-    */
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -31,6 +24,11 @@ h1 {
 h2 {
   font-family: "Copperplate", "Helvetica", sans-serif;
   font-size: 350%;
+  text-align: center;
+}
+
+.dialogue{
+  font-family: "Verdana", "Arial", sans-serif;
   text-align: center;
 }
 
@@ -67,6 +65,7 @@ ul {
   font-size: 32px;
 
 }
+
 /*
 .button{
   margin:0 auto;

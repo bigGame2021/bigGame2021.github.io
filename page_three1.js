@@ -138,7 +138,7 @@ function shady_lock(){
         alert("He looks at the food uninterested.");
     }
 
-    if(food.toLowerCase()==="rendang" && garlic === 3 && milk === 2 && salt === 1){
+    if(food.toLowerCase()==="rendang" && garlic === 3 && milk === 1 && salt === 2){
          alert("Shady tradesman happily takes the food! He hands you a piece of paper and starts eating.");
          window.location.href = "map.html";
     }

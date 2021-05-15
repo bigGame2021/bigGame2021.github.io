@@ -232,7 +232,7 @@ function change_button_5(){
 function check_colors(){
     if(b1 === 8 && b2 === 4 && b3 === 6 && b4 === 5 && b5 === 3){
         alert("It opened!");
-        window.location.href = "letter.html";
+        window.location.href = "email.html";
     }
     else{
         alert("It's not opening...");
